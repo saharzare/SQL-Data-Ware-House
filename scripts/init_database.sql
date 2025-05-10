@@ -6,7 +6,7 @@ Warning: Running this script will drop the entire 'DataWarehouse' database if it
 */
 
 -- drop if the datawarehouse already exists
-  DROP DATABASE DataWarehouse
+DROP DATABASE DataWarehouse
 -- create databases
 CREATE DATABASE DataWareHouse;
 go
@@ -15,9 +15,9 @@ USE DataWareHouse;
 go
 
 -- create schema
-CREATE SCHEMA bronze
+CREATE SCHEMA bronze;
 go
-CREATE SCHEMA silver
+CREATE SCHEMA silver;
 go
-CREATE SCHEMA gold
+CREATE SCHEMA gold;
 go
